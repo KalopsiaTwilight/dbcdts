@@ -1,0 +1,25 @@
+{
+  "name": "dbcd-ts",
+  "version": "0.0.1",
+  "description": "TS Library for reading DBC/DB2 files from World of Warcraft.",
+  "author": {
+    "name": "KalopsiaTwilight",
+    "email": "KalopsiaTwilight@gmail.com"
+  },
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+    "test": "cross-env TS_NODE_PROJECT='./tsconfig.json' mocha",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.8.7",
+    "chai": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
